@@ -9,9 +9,9 @@ $config = require __DIR__ . '/config.php';
 
 while (!feof(STDIN)) {
     $message = rtrim(fgets(STDIN));
-	if (feof(STDIN) && $message == "") {
-		continue;
-	}
+    if (feof(STDIN) && $message == "") {
+        continue;
+    }
     $dateTime = date($config['dateFormat']);
     $line = str_replace([
             "%DATETIME%",
