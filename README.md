@@ -27,23 +27,25 @@ outputs to STDERR stream.
 
 ## Installation
 
-1. Create folder for Autologger and enter into it:
+1\. Create folder for Autologger and enter into it:
+
 ```
 mkdir autologger
 chdir autologger
 ```
 
-2. Clone git repository:
+2\. Clone git repository:
+
 ```
 git clone git@github.com:gugglegum/autologger.git . 
 ```
 
-3. Copy example config to real:
+3\. Copy example config to real:
 ```
 cp config.example.php config.php
 ```
 
-4. Edit config file (OPTIONAL):
+4\. Edit config file (OPTIONAL):
 ```
 nano config.php
 ```
